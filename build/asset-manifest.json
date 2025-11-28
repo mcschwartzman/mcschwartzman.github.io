@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "./static/css/main.0476c26f.css",
+    "main.js": "./static/js/main.1c80ecb9.js",
+    "static/js/496.3d8930df.chunk.js": "./static/js/496.3d8930df.chunk.js",
+    "static/media/jason_pose.jpg": "./static/media/jason_pose.f30540a9a9db7ac794f2.jpg",
+    "static/media/workspace.jpg": "./static/media/workspace.d4d579de2668116e6d33.jpg",
+    "index.html": "./index.html",
+    "main.0476c26f.css.map": "./static/css/main.0476c26f.css.map",
+    "main.1c80ecb9.js.map": "./static/js/main.1c80ecb9.js.map",
+    "496.3d8930df.chunk.js.map": "./static/js/496.3d8930df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0476c26f.css",
+    "static/js/main.1c80ecb9.js"
+  ]
+}
