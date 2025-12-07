@@ -36,7 +36,7 @@ function Publications() {
             </Row>
             <Row>
                 {my_publications.map((publication) =>(
-                    <Col md={5}>
+                    <Col md={5} key={publication.title}>
                         <Card>
                         <Card.Header>{publication.published}</Card.Header>
                             <Card.Body>
@@ -47,9 +47,9 @@ function Publications() {
                                     {publication.abstract}
                                 </Card.Text>
                                 {publication.buttons.map((button) =>(
-                                    <Button variant="dark" href={button.link}>
+                                    <Button variant="dark" href={button.link} key={button.description}>
                                         {button.description}
-                                        <i class={button.icon}></i>
+                                        <i className={button.icon}></i>
                                     </Button>
                                 ))}
                             </Card.Body>
