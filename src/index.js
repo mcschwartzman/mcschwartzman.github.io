@@ -22,7 +22,7 @@ root.render(
       <Col md={2}>
       </Col>
       <Col>
-        <BrowserRouter basename="/">
+        <BrowserRouter baseline="/">
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="/publications" element={<Publications />} />
