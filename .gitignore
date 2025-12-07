@@ -1,0 +1,6 @@
+./mcschwartzman.github.io.sublime-workspace
+./mcschwartzman.github.io.sublime-project
+
+# Dependency directories
+node_modules/
+jspm_packages/
