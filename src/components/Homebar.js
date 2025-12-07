@@ -10,7 +10,6 @@ class Homebar extends Component {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link href="/">Home</Nav.Link>
-                            <Nav.Link href="/Projects">Projects</Nav.Link>
                             <Nav.Link href="/gallery">Gallery</Nav.Link>
                             <Nav.Link href="/publications">Publications</Nav.Link>
                         </Nav>

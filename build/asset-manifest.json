@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.0476c26f.css",
-    "main.js": "/static/js/main.beb68dde.js",
-    "static/js/496.3d8930df.chunk.js": "/static/js/496.3d8930df.chunk.js",
-    "static/media/jason_pose.jpg": "/static/media/jason_pose.f30540a9a9db7ac794f2.jpg",
-    "static/media/workspace.jpg": "/static/media/workspace.d4d579de2668116e6d33.jpg",
-    "index.html": "/index.html",
-    "main.0476c26f.css.map": "/static/css/main.0476c26f.css.map",
-    "main.beb68dde.js.map": "/static/js/main.beb68dde.js.map",
-    "496.3d8930df.chunk.js.map": "/static/js/496.3d8930df.chunk.js.map"
+    "main.css": "./static/css/main.c75c5abe.css",
+    "main.js": "./static/js/main.5e9e4321.js",
+    "static/js/488.77cc9703.chunk.js": "./static/js/488.77cc9703.chunk.js",
+    "static/media/jason_pose.jpg": "./static/media/jason_pose.f30540a9a9db7ac794f2.jpg",
+    "static/media/brestPresentation.pdf": "./static/media/brestPresentation.47154753d2bc7b42c236.pdf",
+    "static/media/workspace.jpg": "./static/media/workspace.d4d579de2668116e6d33.jpg",
+    "static/media/bootstrap-icons.woff?": "./static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "./static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "index.html": "./index.html",
+    "main.c75c5abe.css.map": "./static/css/main.c75c5abe.css.map",
+    "main.5e9e4321.js.map": "./static/js/main.5e9e4321.js.map",
+    "488.77cc9703.chunk.js.map": "./static/js/488.77cc9703.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0476c26f.css",
-    "static/js/main.beb68dde.js"
+    "static/css/main.c75c5abe.css",
+    "static/js/main.5e9e4321.js"
   ]
 }
