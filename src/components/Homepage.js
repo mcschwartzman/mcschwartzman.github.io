@@ -18,8 +18,6 @@ function Homepage() {
     return (
         <div>
             <Row>
-                <Col>
-                </Col>
                 <Col md={8}>
                     <Container className="p-0">
                         <Row>

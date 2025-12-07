@@ -8,7 +8,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 import Homebar from './components/Homebar';
 import Homepage from './components/Homepage';
-import Greeting from './components/Greeting'
+import Greeting from './components/Greeting';
+import Publications from './components/Publications';
+import Sidenav from './components/Sidenav';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,9 +20,16 @@ root.render(
         <Homebar />
       </Row>
       <Row>
-        <Routes>
-          <Route path="/" element={<Homepage />} />
-        </Routes>
+        <Col md={2}>
+        </Col>
+        <Col>
+          <Routes>
+            <Route path="/" element={<Homepage />} />
+            <Route path="/publications" element={<Publications />} />
+          </Routes>
+        </Col>
+        <Col md={2}>
+        </Col>
       </Row>
     </Router>
   </React.StrictMode>

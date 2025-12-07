@@ -11,8 +11,8 @@ class Homebar extends Component {
                         <Nav className="me-auto">
                             <Nav.Link href="/">Home</Nav.Link>
                             <Nav.Link href="/Projects">Projects</Nav.Link>
-                            <Nav.Link href="#Tools">Gallery</Nav.Link>
-                            <Nav.Link href="#Projects">Publications</Nav.Link>
+                            <Nav.Link href="/gallery">Gallery</Nav.Link>
+                            <Nav.Link href="/publications">Publications</Nav.Link>
                         </Nav>
                         <Navbar.Text>
                             Mathew Schwartzman
