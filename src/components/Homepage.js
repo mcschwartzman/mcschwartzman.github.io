@@ -1,10 +1,9 @@
 import React from "react";
 import { Row, Col, Container } from 'react-bootstrap';
 import Homebar from './Homebar';
-import Gallery from './Gallery';
+import Slideshow from './Slideshow';
 import Title from './Title';
 import Description from './Description';
-import Module1 from './Module1';
 
 function Homepage() {
     const [data, setData] = React.useState(null);
@@ -15,11 +14,11 @@ function Homepage() {
                 <Col md={8}>
                     <Container className="p-0">
                         <Row>
-                            <Title name="Gallery"/>
+                            <Title name="Home"/>
                         </Row>
                         <Row>
                             <Col md={12}>
-                                <Gallery />
+                                <Slideshow />
                             </Col>
                         </Row>
                         </Container>

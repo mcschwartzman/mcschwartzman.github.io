@@ -10,7 +10,7 @@ import Homebar from './components/Homebar';
 import Homepage from './components/Homepage';
 import Greeting from './components/Greeting';
 import Publications from './components/Publications';
-import Sidenav from './components/Sidenav';
+import Gallery from './components/Gallery';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,6 +25,7 @@ root.render(
         <BrowserRouter baseline="/">
           <Routes>
             <Route path="/" element={<Homepage />} />
+            <Route path="/gallery" element={<Gallery />} />
             <Route path="/publications" element={<Publications />} />
           </Routes>
         </BrowserRouter>

@@ -3,27 +3,30 @@ import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Workspace from './img/workspace.jpg'
 import jason_pose from './img/jason_pose.jpg'
+import Photo from './Photo'
 
 
 class Gallery extends Component {
+
+    photos = [
+        {
+            "source": jason_pose,
+            "description": "This is me posing with Jason"
+        }
+    ]
+
     render() {
+        console.log(this.photos);
         return (
-            <Carousel>
-                <Carousel.Item>
-                    <img src={Workspace} />
-                    <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>This is the text for the first slide</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img src={jason_pose} />
-                    <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>This is the text for the first slide</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-            </Carousel>
+            <div>
+                {
+                this.photos.map(function(photo){
+                    return(
+                        <Photo source={photo.source} description={photo.description} />
+                    )
+                })
+                }
+            </div>
         )
     }
     
