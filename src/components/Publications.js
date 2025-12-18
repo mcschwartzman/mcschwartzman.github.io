@@ -4,7 +4,8 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import * as Icon from 'react-bootstrap-icons';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import brestPresentation from './files/brestPresentation.pdf'
+import brestPresentation from './files/brestPresentation.pdf';
+import Title from './Title'
 
 function Publications() {
 
@@ -29,10 +30,9 @@ function Publications() {
     ]
 
     return (
-        <div>
+        <Container>
             <Row>
-                <br></br>
-                <h1>Publications</h1>
+                <Title name="Publications"/>
             </Row>
             <Row>
                 {my_publications.map((publication) =>(
@@ -57,7 +57,7 @@ function Publications() {
                     </Col>
                 ))}
             </Row>
-        </div>
+        </Container>
     )
 }
 

@@ -14,9 +14,6 @@ function Homepage() {
                 <Col md={8}>
                     <Container className="p-0">
                         <Row>
-                            <Title name="Home"/>
-                        </Row>
-                        <Row>
                             <Col md={12}>
                                 <Slideshow />
                             </Col>

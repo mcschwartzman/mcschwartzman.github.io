@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import { useState } from 'react';
-import Carousel from 'react-bootstrap/Carousel';
 import Workspace from './img/workspace.jpg'
 import jason_pose from './img/jason_pose.jpg'
 import Photo from './Photo'
+import Row from 'react-bootstrap/Row';
+import { Container } from 'react-bootstrap';
+import Title from './Title';
 
 
 class Gallery extends Component {
@@ -18,15 +20,20 @@ class Gallery extends Component {
     render() {
         console.log(this.photos);
         return (
-            <div>
-                {
-                this.photos.map(function(photo){
-                    return(
-                        <Photo source={photo.source} description={photo.description} />
-                    )
-                })
-                }
-            </div>
+            <Container>
+                <Row>
+                    <Title name="Gallery"/>
+                </Row>
+                <Row>
+                    {
+                    this.photos.map(function(photo){
+                        return(
+                            <Photo source={photo.source} description={photo.description} key={photo.description} />
+                        )
+                    })
+                    }
+                </Row>
+            </Container>
         )
     }
     
