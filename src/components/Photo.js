@@ -30,6 +30,9 @@ function Photo({source, description}) {
                 <Modal.Body>
                     <Image src={source} rounded fluid/>
                 </Modal.Body>
+                <Modal.Footer>
+                    <p>{description}</p>
+                </Modal.Footer>
 
             </Modal>
 

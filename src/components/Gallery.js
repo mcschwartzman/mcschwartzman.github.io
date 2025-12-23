@@ -1,19 +1,30 @@
 import React, { Component } from 'react';
 import { useState } from 'react';
-import Workspace from './img/workspace.jpg'
-import jason_pose from './img/jason_pose.jpg'
 import Photo from './Photo'
-import Row from 'react-bootstrap/Row';
-import { Container } from 'react-bootstrap';
+import { Row, Col, Container } from 'react-bootstrap';
 import Title from './Title';
+
+import jason_pose from './img/jason_pose.jpg';
+import jason_closeup from './img/jason_closeup.jpg';
+import aiff2025_panel from './img/aiff2025_panel.jpg';
+
+
 
 
 class Gallery extends Component {
 
     photos = [
         {
+            "source": aiff2025_panel,
+            "description": "Participating in the Oceans Panel at AIFF 2025"
+        },
+        {
+            "source": jason_closeup,
+            "description": "Posing with ROV Jason after my 4am-8am watch"
+        },
+        {
             "source": jason_pose,
-            "description": "This is me posing with Jason"
+            "description": "Posing with ROV Jason out at the Juan de Fuca ridge"
         }
     ]
 
@@ -28,7 +39,9 @@ class Gallery extends Component {
                     {
                     this.photos.map(function(photo){
                         return(
-                            <Photo source={photo.source} description={photo.description} key={photo.description} />
+                            <Col>
+                                <Photo source={photo.source} description={photo.description} key={photo.description} />
+                            </Col>
                         )
                     })
                     }
