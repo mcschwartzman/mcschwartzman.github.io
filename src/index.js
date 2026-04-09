@@ -19,12 +19,16 @@ root.render(
       <Homebar />
     </Row>
     <Row>
+      <br></br>
+    </Row>
+    <Row>
       <Col md={2}>
       </Col>
       <Col>
         <BrowserRouter baseline="/">
           <Routes>
             <Route path="/" element={<Homepage />} />
+            <Route path="/resume" element={<Gallery />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/publications" element={<Publications />} />
           </Routes>

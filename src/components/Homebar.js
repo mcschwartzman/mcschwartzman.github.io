@@ -7,15 +7,13 @@ class Homebar extends Component {
         return (
             <Navbar expand="lg" className="bg-body-tertiary">
                 <Container>
+                    <Navbar.Brand href="/">Mathew Schwartzman</Navbar.Brand>
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="/">Home</Nav.Link>
+                            <Nav.Link href="/resume">Resume</Nav.Link>
                             <Nav.Link href="/gallery">Gallery</Nav.Link>
                             <Nav.Link href="/publications">Publications</Nav.Link>
                         </Nav>
-                        <Navbar.Text>
-                            Mathew Schwartzman
-                        </Navbar.Text>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
