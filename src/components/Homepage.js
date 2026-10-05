@@ -13,17 +13,10 @@ function Homepage() {
             <Row>
                 <Col md={8}>
                     <Container className="p-0">
-                        <Row>
-                            <Col md={12}>
-                                <Slideshow />
-                            </Col>
-                        </Row>
-                        </Container>
-                    </Col>
-                    <Col>
-
-                    </Col>
-                    </Row>
+                        <Slideshow />
+                    </Container>
+                </Col>
+            </Row>
         </div>
     )
 } 

@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import Workspace from './img/workspace.jpg'
-import jason_pose from './img/jason_pose.jpg'
+import Workspace from './img/workspace.jpg';
+import jason_pose from './img/jason_pose.jpg';
+import Image from 'react-bootstrap/Image';
 
 
 class Slideshow extends Component {
@@ -10,14 +11,14 @@ class Slideshow extends Component {
         return (
             <Carousel>
                 <Carousel.Item>
-                    <img src={Workspace} />
+                    <Image src={Workspace} />
                     <Carousel.Caption>
                         <h3>First slide label</h3>
                         <p>This is the text for the first slide</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={jason_pose} />
+                    <Image src={jason_pose} />
                     <Carousel.Caption>
                         <h3>First slide label</h3>
                         <p>This is the text for the first slide</p>
