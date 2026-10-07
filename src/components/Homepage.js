@@ -11,7 +11,7 @@ function Homepage() {
     return (
         <div>
             <Row>
-                <Col md={8}>
+                <Col >
                     <Container className="p-0">
                         <Slideshow />
                     </Container>

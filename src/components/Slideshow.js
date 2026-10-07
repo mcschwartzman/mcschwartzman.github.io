@@ -11,14 +11,14 @@ class Slideshow extends Component {
         return (
             <Carousel>
                 <Carousel.Item>
-                    <Image src={Workspace} />
+                    <Image src={Workspace} fluid/>
                     <Carousel.Caption>
                         <h3>First slide label</h3>
                         <p>This is the text for the first slide</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <Image src={jason_pose} />
+                    <Image src={jason_pose} fluid/>
                     <Carousel.Caption>
                         <h3>First slide label</h3>
                         <p>This is the text for the first slide</p>
