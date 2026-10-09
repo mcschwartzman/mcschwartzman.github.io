@@ -12,7 +12,10 @@ function Homepage() {
         <Container>
             <Row>
                 <Col>
-                    <Slideshow />
+                    
+                </Col>
+                <Col>
+                    
                 </Col>
             </Row>
         </Container>

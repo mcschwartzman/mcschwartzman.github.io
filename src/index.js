@@ -12,6 +12,7 @@ import Greeting from './components/Greeting';
 import Publications from './components/Publications';
 import Gallery from './components/Gallery';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -39,6 +40,12 @@ root.render(
       </Col>
       <Col md={2}>
       </Col>
+    </Row>
+      <Col>
+        <Footer />
+      </Col>
+    <Row>
+      <Col></Col>
     </Row>
   </React.StrictMode>
 );
