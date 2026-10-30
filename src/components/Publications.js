@@ -50,9 +50,9 @@ function Publications() {
 
     return (
         <Container>
-            <Row>
+            <br></br>
                 <Title name="Publications"/>
-            </Row>
+            <br></br>
             <Row>
                 {my_publications.map((publication) =>(
                     <Col md={5} key={publication.title}>

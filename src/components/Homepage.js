@@ -10,10 +10,15 @@ function Homepage() {
 
     return (
         <Container>
+            <br></br>
+            <Title name="Engineer | Explorer | Educator"/>
+            <br></br>
             <Row>
+                <Col md={1}></Col>
                 <Col>
                     <Slideshow />
                 </Col>
+                <Col md={1}></Col>
             </Row>
         </Container>
     )

@@ -12,9 +12,9 @@ class Gallery extends Component {
     render() {
         return (
         <Container>
-            <Row>
-                <Title name="Resume"/>
-            </Row>
+            <br></br>
+            <Title name="Resume"/>
+            <br></br>
             <Row>
                 <Col>
                     <object data={resume_pdf} type="application/pdf" width="100%" height="1000px">

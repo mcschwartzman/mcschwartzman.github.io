@@ -36,7 +36,7 @@ function Footer() {
                     <h5>Contact</h5>
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2"><a href="mailto:mcschwartzman@outlook.com" class="nav-link p-0 text-muted">mcschwartzman@outlook.com</a></li>
-                        <li class="nav-item mb-2"><a href="https://www.instagram.com/brineybuilds/" class="nav-link p-0 text-muted">(774) 314-7436</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">(774) 314-7436</a></li>
 
                     </ul>
                     </div>

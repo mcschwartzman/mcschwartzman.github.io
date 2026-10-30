@@ -18,7 +18,10 @@ import simroom_remote_ops from './img/simroom_remote_ops.png';
 import walden_ice_dive from './img/walden_ice_dive.jpeg';
 import oceans_friends from './img/oceans_friends.jpg';
 import mathew_clayton_thinking from './img/mathew_clayton_thinking.png';
-
+import upsidedown_breathhold from './img/upsidedown_breathhold.jpg';
+import piloting_for_jaina from './img/piloting_for_jaina.jpg';
+import holding_squashboat from './img/holding_squashboat.jpg';
+import deploying_rov_nh from './img/deploying_rov_nh.JPG';
 
 
 class Gallery extends Component {
@@ -71,17 +74,32 @@ class Gallery extends Component {
         {
             "source": mathew_clayton_thinking,
             "description": "A fellow WPI alum and I working on autonomous search-and-rescue software"
-        }
-
+        },
+        {
+            "source": upsidedown_breathhold,
+            "description": "Here I am practicing my breathhold in a local pool!"
+        },
+        {
+            "source": piloting_for_jaina,
+            "description": "Jaina Cipriano, a local filmmaker, directs me to get some underwater footage of a local pond."
+        },
+        {
+            "source": holding_squashboat,
+            "description": "My friend Ariane and I built an Unmanned Surface Vehicle (USV) out of a pumpkin for halloween!"
+        },
+        {
+            "source": deploying_rov_nh,
+            "description": "Diving in New Hampshire to demonstrate how multibeam sonar works!"
+        },
     ]
 
     render() {
         console.log(this.photos);
         return (
             <Container>
-                <Row>
-                    <Title name="Photos"/>
-                </Row>
+                <br></br>
+                <Title name="Photos"/>
+                <br></br>
                 <Row>
                     {
                     this.photos.map(function(photo){

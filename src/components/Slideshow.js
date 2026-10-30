@@ -31,7 +31,7 @@ class Slideshow extends Component {
                 <Carousel.Item>
                     <Image src={jason_pose} fluid/>
                     <Carousel.Caption>
-                        <h3>At-Sea Crewmember</h3>
+                        <h3>Support Crew</h3>
                         <p>Deep-sea operations add unique complexities</p>
                     </Carousel.Caption>
                 </Carousel.Item>
