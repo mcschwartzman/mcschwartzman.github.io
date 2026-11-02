@@ -22,7 +22,8 @@ import upsidedown_breathhold from './img/upsidedown_breathhold.jpg';
 import piloting_for_jaina from './img/piloting_for_jaina.jpg';
 import holding_squashboat from './img/holding_squashboat.jpg';
 import deploying_rov_nh from './img/deploying_rov_nh.JPG';
-
+import loading_kayak from './img/loading_kayak.jpg';
+import mathew_as_coastx from './img/mathew_as_coastx.jpeg';
 
 class Gallery extends Component {
 
@@ -64,8 +65,8 @@ class Gallery extends Component {
             "description": "Shoreside testing beats coding in an office, but you can't see your screen as well"
         },
         {
-            "source": simroom_remote_ops,
-            "description": "Building out remote-operation software for OECI"
+            "source": holding_squashboat,
+            "description": "My friend Ariane and I built an Unmanned Surface Vehicle (USV) out of a pumpkin for halloween!"
         },
         {
             "source": oceans_friends,
@@ -84,12 +85,20 @@ class Gallery extends Component {
             "description": "Jaina Cipriano, a local filmmaker, directs me to get some underwater footage of a local pond."
         },
         {
-            "source": holding_squashboat,
-            "description": "My friend Ariane and I built an Unmanned Surface Vehicle (USV) out of a pumpkin for halloween!"
+            "source": loading_kayak,
+            "description": "The nice thing about building a USV out of a children's kayak is it fits in an old prius!"
         },
         {
             "source": deploying_rov_nh,
             "description": "Diving in New Hampshire to demonstrate how multibeam sonar works!"
+        },
+        {
+            "source": mathew_as_coastx,
+            "description": "I volunteer with CoastX for ROV piloting, sonar education, and engineering services!"
+        },
+        {
+            "source": simroom_remote_ops,
+            "description": "Building out remote-operation software for OECI"
         },
     ]
 
