@@ -24,6 +24,8 @@ import holding_squashboat from './img/holding_squashboat.jpg';
 import deploying_rov_nh from './img/deploying_rov_nh.JPG';
 import loading_kayak from './img/loading_kayak.jpg';
 import mathew_as_coastx from './img/mathew_as_coastx.jpeg';
+import thruster_buster from './img/thruster_buster.jpg';
+import rc_from_behind from './img/rc_from_behind.jpg';
 
 class Gallery extends Component {
 
@@ -89,8 +91,8 @@ class Gallery extends Component {
             "description": "The nice thing about building a USV out of a children's kayak is it fits in an old prius!"
         },
         {
-            "source": deploying_rov_nh,
-            "description": "Diving in New Hampshire to demonstrate how multibeam sonar works!"
+            "source": rc_from_behind,
+            "description": "Some control checks before deploying my Kayak USV on an autonomous mission!"
         },
         {
             "source": mathew_as_coastx,
@@ -100,6 +102,19 @@ class Gallery extends Component {
             "source": simroom_remote_ops,
             "description": "Building out remote-operation software for OECI"
         },
+        {
+            "source": thruster_buster,
+            "description": "Never let a busted thruster mount ruin your day!"
+        },
+        {
+            "source": deploying_rov_nh,
+            "description": "Diving in New Hampshire to demonstrate how multibeam sonar works!"
+        },
+        {
+            "source": mathew_on_computer,
+            "description": "Nothing like debugging ESCs at 1am."
+        }
+        
     ]
 
     render() {
