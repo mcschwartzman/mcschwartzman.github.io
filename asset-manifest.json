@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.ef8a8b25.css",
-    "main.js": "/static/js/main.701f0523.js",
+    "main.js": "/static/js/main.0cc63f9a.js",
     "static/js/488.77cc9703.chunk.js": "/static/js/488.77cc9703.chunk.js",
+    "static/media/rc_from_behind.jpg": "/static/media/rc_from_behind.c1bc25093fd273133cbc.jpg",
+    "static/media/thruster_buster.jpg": "/static/media/thruster_buster.d7dcf56236c39f0962bb.jpg",
     "static/media/oceans_friends.jpg": "/static/media/oceans_friends.476c2eb2e5826c864b54.jpg",
     "static/media/jason_closeup.jpg": "/static/media/jason_closeup.a83059f569c6c93b3e04.jpg",
     "static/media/mathew_clayton_thinking.png": "/static/media/mathew_clayton_thinking.34bc458c97aa536789e5.png",
@@ -29,11 +31,11 @@
     "static/media/resume_professional_first.pdf": "/static/media/resume_professional_first.08e3cf8a2870f059191e.pdf",
     "index.html": "/index.html",
     "main.ef8a8b25.css.map": "/static/css/main.ef8a8b25.css.map",
-    "main.701f0523.js.map": "/static/js/main.701f0523.js.map",
+    "main.0cc63f9a.js.map": "/static/js/main.0cc63f9a.js.map",
     "488.77cc9703.chunk.js.map": "/static/js/488.77cc9703.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ef8a8b25.css",
-    "static/js/main.701f0523.js"
+    "static/js/main.0cc63f9a.js"
   ]
 }
