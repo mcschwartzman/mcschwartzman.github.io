@@ -14,6 +14,7 @@ class Homebar extends Component {
                             <Nav.Link href="/#/resume">Resume</Nav.Link>
                             <Nav.Link href="/#/gallery">Photos</Nav.Link>
                             <Nav.Link href="/#/publications">Publications</Nav.Link>
+                            <Nav.Link href="/#/blog">Blog</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

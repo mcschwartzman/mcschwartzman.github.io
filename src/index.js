@@ -13,6 +13,7 @@ import Publications from './components/Publications';
 import Gallery from './components/Gallery';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
+import Blog from './components/Blog';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -35,6 +36,7 @@ root.render(
             <Route path="/resume" element={<Resume />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/publications" element={<Publications />} />
+            <Route path="/blog" element={<Blog /> } />
           </Routes>
         </HashRouter>
       </Col>
