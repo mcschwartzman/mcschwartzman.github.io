@@ -40,8 +40,11 @@ function Blog() {
             const title = items[i].getElementsByTagName('title')[0].textContent;
             const link = items[i].getElementsByTagName('link')[0].textContent;
             const pubDate = items[i].getElementsByTagName('pubDate')[0]?.textContent;
-            const contentEncoded = items[i].getElementsByTagName('content:encoded')[0]?.textContent;
-            feedItems.push({ title, link, pubDate, contentEncoded});
+
+            const contentEncoded = parser.parseFromString(items[i].getElementsByTagName('content:encoded')[0]?.textContent, 'text/html').documentElement.textContent;
+            const image = items[i].getElementsByTagName('enclosure')[0].getAttribute('url');
+            console.log(image);
+            feedItems.push({ title, link, pubDate, contentEncoded, image});
         }
 
         return feedItems;
@@ -59,7 +62,7 @@ function Blog() {
                     feed.map(function(item){
                         return(
                             <Card>
-                                <Card.Img />
+                                <Card.Img src={item.image} variant="bottom" />
                                 <Card.Body>
                                     <Card.Title>
                                         {item.title}
