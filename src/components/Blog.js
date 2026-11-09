@@ -37,19 +37,20 @@ function Blog() {
 function parseRSS(rssText) {
     const parser = new DOMParser();
     const xmlDoc = parser.parseFromString(rssText, 'text/xml');
+    console.log(xmlDoc);
     
     const items = xmlDoc.getElementsByTagName('item');
     const feedItems = [];
+    console.log(items.length);
 
     for (let i = 0; i < items.length; i++) {
         const title = items[i].getElementsByTagName('title')[0].textContent;
         const link = items[i].getElementsByTagName('link')[0].textContent;
         const pubDate = items[i].getElementsByTagName('pubDate')[0]?.textContent;
-
+        const description = parser.parseFromString(items[i].getElementsByTagName('description')[0]?.textContent, 'text/html').documentElement.textContent;
         const contentEncoded = parser.parseFromString(items[i].getElementsByTagName('content:encoded')[0]?.textContent, 'text/html').documentElement.textContent;
         const image = items[i].getElementsByTagName('enclosure')[0].getAttribute('url');
-        console.log(image);
-        feedItems.push({ title, link, pubDate, contentEncoded, image});
+        feedItems.push({ title, link, pubDate, description, contentEncoded, image});
     }
 
     return feedItems;
@@ -64,17 +65,26 @@ function parseRSS(rssText) {
                 {
                     feed.map(function(item){
                         return(
-                            <Card>
-                                <Card.Img src={item.image} variant="bottom" />
-                                <Card.Body>
-                                    <Card.Title>
-                                        {item.title}
-                                    </Card.Title>
-                                    <Card.Text>
-                                        {item.contentEncoded}
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
+                            <Row>
+                                <Card>
+                                    <Card.Body>
+                                        <Card.Title>
+                                            {item.pubDate.substring(0, item.pubDate.length - 12)} - {item.title}
+                                        </Card.Title>
+                                        <Card.Subtitle>
+                                            {item.description}
+                                        </Card.Subtitle>
+                                        <br></br>
+                                        <Card.Text>
+                                            {item.contentEncoded}
+                                        </Card.Text>
+                                        <Button variant="primary" href={item.link}>Read on Substack</Button>
+                                    </Card.Body>
+                                    <Container style={{width:'100%', marginBottom:20, height:200, overflow:'hidden', backgroundPosition: 'center center', backgroundRepeat: 'no-repeat'}}>
+                                        <Card.Img src={item.image} style={{position: 'relative', margin: '-50% auto', verticalAlign:'middle', height:'auto', width: '100%'}} variant="bottom" />
+                                    </Container>
+                                </Card>
+                            </Row>
                         )
                     })
                 }
