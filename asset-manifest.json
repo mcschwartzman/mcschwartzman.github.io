@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.ef8a8b25.css",
-    "main.js": "/static/js/main.fd03e040.js",
+    "main.js": "/static/js/main.f9671e07.js",
     "static/js/488.77cc9703.chunk.js": "/static/js/488.77cc9703.chunk.js",
+    "static/media/hands_full_kayak.jpeg": "/static/media/hands_full_kayak.512fd4fe257e52000f05.jpeg",
     "static/media/rc_from_behind.jpg": "/static/media/rc_from_behind.c1bc25093fd273133cbc.jpg",
     "static/media/thruster_buster.jpg": "/static/media/thruster_buster.d7dcf56236c39f0962bb.jpg",
     "static/media/oceans_friends.jpg": "/static/media/oceans_friends.476c2eb2e5826c864b54.jpg",
@@ -20,22 +21,24 @@
     "static/media/holding_squashboat.jpg": "/static/media/holding_squashboat.e0d4350460064bb70ba5.jpg",
     "static/media/welding_nap.jpeg": "/static/media/welding_nap.76880f4dcabfcdb06eea.jpeg",
     "static/media/piloting_for_jaina.jpg": "/static/media/piloting_for_jaina.152ea6f7abfaab087fbf.jpg",
+    "static/media/fbff_nature_panel.jpg": "/static/media/fbff_nature_panel.63438eeacc7d33b6bfe1.jpg",
     "static/media/loading_kayak.jpg": "/static/media/loading_kayak.3c12ebce8a3d2ff1b6fa.jpg",
     "static/media/deploying_rov_nh.JPG": "/static/media/deploying_rov_nh.aa3866bcc7ec63dbc39e.JPG",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
     "static/media/mathew_as_coastx.jpeg": "/static/media/mathew_as_coastx.54b21f59384bbf0bd296.jpeg",
     "static/media/upsidedown_breathhold.jpg": "/static/media/upsidedown_breathhold.8df3053191333dc070e7.jpg",
+    "static/media/rovers_step_repeat.jpg": "/static/media/rovers_step_repeat.313b31c50f05a21ca5fd.jpg",
     "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
     "static/media/mathew_on_computer.jpg": "/static/media/mathew_on_computer.cd7a56aa39b77e7aecca.jpg",
     "static/media/walden_ice_dive.jpeg": "/static/media/walden_ice_dive.721eb5e59d7056f734f4.jpeg",
     "static/media/resume_professional_first.pdf": "/static/media/resume_professional_first.08e3cf8a2870f059191e.pdf",
     "index.html": "/index.html",
     "main.ef8a8b25.css.map": "/static/css/main.ef8a8b25.css.map",
-    "main.fd03e040.js.map": "/static/js/main.fd03e040.js.map",
+    "main.f9671e07.js.map": "/static/js/main.f9671e07.js.map",
     "488.77cc9703.chunk.js.map": "/static/js/488.77cc9703.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ef8a8b25.css",
-    "static/js/main.fd03e040.js"
+    "static/js/main.f9671e07.js"
   ]
 }
