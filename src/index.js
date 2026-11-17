@@ -24,9 +24,6 @@ root.render(
       </Col>
     </Row>
     <Row>
-      <br></br>
-    </Row>
-    <Row>
       <Col md={2}>
       </Col>
       <Col>

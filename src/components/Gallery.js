@@ -26,6 +26,9 @@ import loading_kayak from './img/loading_kayak.jpg';
 import mathew_as_coastx from './img/mathew_as_coastx.jpeg';
 import thruster_buster from './img/thruster_buster.jpg';
 import rc_from_behind from './img/rc_from_behind.jpg';
+import rovers_step_repeat from './img/rovers_step_repeat.jpg';
+import hands_full_kayak from './img/hands_full_kayak.jpeg';
+import fbff_nature_panel from './img/fbff_nature_panel.jpg';
 
 class Gallery extends Component {
 
@@ -113,6 +116,18 @@ class Gallery extends Component {
         {
             "source": mathew_on_computer,
             "description": "Nothing like debugging ESCs at 1am."
+        },
+        {
+            "source": hands_full_kayak,
+            "description": '"I can carry it all in one trip!"'
+        },
+        {
+            "source": rovers_step_repeat,
+            "description": "Cheesing at Boston Sea Rovers!"
+        },
+        {
+            "source": fbff_nature_panel,
+            "description": "Participating in the Nature panel at the Finding Bright Film Festival"
         }
         
     ]
